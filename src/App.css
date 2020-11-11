@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+  width: 90vw;
+  height: 90vh;
+  border: 1px solid black;
+  border-radius: 25px;
+  margin-left: 5vw;
+  margin-top: 5vh;
+  background-color: olivedrab;
 }
 
 .App-logo {
@@ -35,4 +42,119 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.card {
+  background-color: cornsilk;
+  width: 50px;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 15px;
+  position: relative;
+  z-index: 1;
+}
+
+.card:hover {
+  background-color: lightgray;
+}
+
+.computer {
+  position: absolute;
+  top: 7vh;
+  left: 30%;
+  width: 100%;
+  display: flex;
+}
+
+.player {
+  position: absolute;
+  bottom: 7vh;
+  left: 30%;
+  width: 100%;
+  display: flex;
+}
+
+#menu {
+  position:absolute;
+  width: 100px;
+  left: 8%;
+  top: 10%;
+}
+
+.center {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 35%;
+
+}
+
+.popUp {
+  position: absolute;
+  top: -285px;
+  left: 25%;
+  width: 300px;
+  height: 275px;
+  border: 1px solid black;
+  border-radius: 25px;
+  background-color: tan;
+  z-index: 1;
+}
+
+.popUp h3 {
+  position: absolute;
+  left: 2%;
+}
+
+.InstructionBox {
+  background-color: beige;
+  border-radius: 25px;
+  border: 1px solid black;
+  position: absolute;
+  top: 225px;
+  left: 25%;
+  width: 700px;
+  height: 500px;
+  padding-left: 5px;
+  z-index: 2;
+}
+
+.InstructionBox p {
+  text-align: left;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.InstructionBox button {
+  position: absolute;
+  left: 45%;
+  bottom: 10px;
+}
+
+.compMove {
+  position:absolute;
+  top: 30%;
+  right: 10%;
+  z-index: 1;
+}
+
+.playerStep {
+  position:absolute;
+  bottom: 20%;
+  left: 10%;
+  z-index: 1;
+}
+
+button {
+  border-radius: 5px;
+  min-height: 2em;
+  font-size: x-large;
+  background-color: darkcyan;
+  color: white;
+  margin-top: 5px;
+}
+
+button:hover {
+  background-color: rgb(0, 94, 94);
 }
