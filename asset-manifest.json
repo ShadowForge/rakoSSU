@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/rakoSSU/static/css/main.dba20490.chunk.css",
+    "main.js": "/rakoSSU/static/js/main.c741a207.chunk.js",
+    "main.js.map": "/rakoSSU/static/js/main.c741a207.chunk.js.map",
+    "runtime-main.js": "/rakoSSU/static/js/runtime-main.416aef99.js",
+    "runtime-main.js.map": "/rakoSSU/static/js/runtime-main.416aef99.js.map",
+    "static/js/2.572f81cc.chunk.js": "/rakoSSU/static/js/2.572f81cc.chunk.js",
+    "static/js/2.572f81cc.chunk.js.map": "/rakoSSU/static/js/2.572f81cc.chunk.js.map",
+    "static/js/3.468775cd.chunk.js": "/rakoSSU/static/js/3.468775cd.chunk.js",
+    "static/js/3.468775cd.chunk.js.map": "/rakoSSU/static/js/3.468775cd.chunk.js.map",
+    "index.html": "/rakoSSU/index.html",
+    "static/css/main.dba20490.chunk.css.map": "/rakoSSU/static/css/main.dba20490.chunk.css.map",
+    "static/js/2.572f81cc.chunk.js.LICENSE.txt": "/rakoSSU/static/js/2.572f81cc.chunk.js.LICENSE.txt",
+    "static/media/logo.103b5fa1.svg": "/rakoSSU/static/media/logo.103b5fa1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.416aef99.js",
+    "static/js/2.572f81cc.chunk.js",
+    "static/css/main.dba20490.chunk.css",
+    "static/js/main.c741a207.chunk.js"
+  ]
+}
